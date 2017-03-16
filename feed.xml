@@ -7,7 +7,7 @@
     
       <item>
         <title>从 Vue 1.x 迁移</title>
-        <description>&lt;p&gt;#FAQ&lt;/p&gt;
+        <description>&lt;h2 id=&quot;faq&quot;&gt;FAQ&lt;/h2&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;哇，非常长的一页！是否意味着 Vue 2.0 已经完全不同了呢，是否需要从头学起呢，Vue 1.0 的项目是不是没法迁移了？&lt;/p&gt;
