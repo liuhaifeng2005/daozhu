@@ -1,4 +1,4 @@
-# Kiko Plus Theme
+# 岛主
 
 ![image](/images/0.gif)
 
