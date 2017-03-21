@@ -99,17 +99,7 @@ ga('send', 'pageview');
 
 <h2 id="使用来提供默认值">使用||来提供默认值</h2>
 
-<table>
-  <tbody>
-    <tr>
-      <td>在javascript中，</td>
-      <td> </td>
-      <td>是一个短路求值的例子，也常用在其他语言当中。</td>
-      <td> </td>
-      <td>操作符会首页判断左边表达式的值，如果为false，则继续判断右边。在任何情况下它都会返回第一个值不为false的结果，参考下面例子：</td>
-    </tr>
-  </tbody>
-</table>
+<p>在javascript中，||是一个短路求值的例子，也常用在其他语言当中。||操作符会首页判断左边表达式的值，如果为false，则继续判断右边。在任何情况下它都会返回第一个值不为false的结果，参考下面例子：</p>
 
 <div class="language-js highlighter-rouge"><pre class="highlight"><code><span class="kd">function</span> <span class="nx">setAge</span><span class="p">(</span><span class="nx">age</span><span class="p">)</span> <span class="p">{</span>
     <span class="k">this</span><span class="p">.</span><span class="nx">age</span> <span class="o">=</span> <span class="nx">age</span> <span class="o">||</span> <span class="mi">10</span><span class="p">;</span>
@@ -167,15 +157,7 @@ ga('send', 'pageview');
 
 <p>总之，我想提醒的是，你写的任何代码都应该本着让其他人读起来简单易懂为原则。</p>
 
-<table>
-  <tbody>
-    <tr>
-      <td>一些文章中列出的问题，在ES6标准中已经通过优雅的方式进行了解决。例如，在未来你不需要使用age = age</td>
-      <td> </td>
-      <td>10这种模式了，ES6提供的一种更好的方式来设置默认值：</td>
-    </tr>
-  </tbody>
-</table>
+<p>一些文章中列出的问题，在ES6标准中已经通过优雅的方式进行了解决。例如，在未来你不需要使用age = age || 10这种模式了，ES6提供的一种更好的方式来设置默认值：</p>
 
 <div class="language-js highlighter-rouge"><pre class="highlight"><code><span class="kd">function</span><span class="p">(</span><span class="nx">age</span> <span class="o">=</span> <span class="mi">10</span><span class="p">)</span> <span class="p">{</span>
    <span class="p">...</span>
